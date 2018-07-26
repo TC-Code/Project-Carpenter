@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+/* HEADER */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    padding: 20px;
+    background: #172436;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 3.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+
+/* DROPDOWN MENU */
+
+#menu {
+    margin-right: 30px;
+}
+
+#menu label {
+    color: #fff;
+    font-size: 3rem;
+}
+
+#menulist {
+    list-style: none;
+}
+
+#menulist a {
+    clear: right;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+
+/* MAIN MENU */
+
+.navi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    margin-right: 50px;
+}
+
+.navi li {
+    list-style: none;
+}
+
+.navi a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 20px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.navi a:hover {
+    color: #454f5e;
+    transition: 0.5s ease;
+}
+
+
+/* SHOWCASE */
+
+.showcase {
+    color: #fff;
+    background: url("img/pexels-photo-374049.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.showcase h1 {
+    padding-bottom: 20px;
+    padding-top: 450px;
+}
+
+.showcase p {
+    text-align: center;
+    padding: 0 10%;
+}
+
+
+/* CONTENT SKILS  */
+
+#container-one {
+    display: flex;
+    text-align: center;
+    padding: 60px 40px 40px 40px;
+    line-height: 1.5;
+}
+
+.row1-box1>h3 {
+    margin-bottom: 20px;
+}
+
+.row1-box1 {
+    padding-right: 15px;
+}
+
+.row1-box2>h3 {
+    margin-bottom: 20px;
+}
+
+.row1-box2 {
+    padding: 0 15px;
+}
+
+.row1-box3>h3 {
+    margin-bottom: 20px;
+}
+
+.row1-box3 {
+    padding-left: 15px;
+}
+
+.container-two {
+    display: flex;
+    text-align: center;
+    padding: 0 40px 40px 40px;
+    line-height: 1.5;
+}
+
+.row2-box1>h3 {
+    margin-bottom: 20px;
+}
+
+.row2-box2 {
+    padding-right: 15px;
+}
+
+.row2-box2>h3 {
+    margin-bottom: 20px;
+}
+
+.row2-box2 {
+    padding: 0 15px;
+}
+
+.row2-box3>h3 {
+    margin-bottom: 20px;
+}
+
+.row2-box3 {
+    padding-left: 15px;
+}
+
+
+/* ABOUT */
+
+.logo-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-about img {
+    width: 25%;
+    padding: 40px 0;
+}
+
+article h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+article p {
+    text-align: center;
+    line-height: 2rem;
+    padding: 40px 40px 40px 40px;
+}
+
+.parallax1,
+.parallax2 {
+    min-height: 400px;
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax1 {
+    background-image: url("img/photo2.jpeg");
+}
+
+.parallax2 {
+    background-image: url(img/photo22.jpeg);
+}
+
+
+/* CONTACT FORM */
+
+.adress h1 {
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.adress h2 {
+    text-align: center;
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+}
+
+.adress p {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+.adress p:last-child {
+    margin-bottom: 40px;
+}
+
+.adress p span {
+    font-size: 2.5rem;
+}
+
+.adress {
+    margin-top: 40px;
+}
+
+input {
+    font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: gray;
+    display: block;
+    outline: none;
+    border: lightgray solid 1px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+textarea {
+    font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: gray;
+    outline: none;
+    resize: none;
+    overflow: auto;
+    border: lightgray solid 1px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+#name,
+#mail,
+#phone,
+#msg {
+    min-width: 500px;
+}
+
+#msg {
+    min-height: 100px;
+    margin: 20px 0;
+}
+
+#mail {
+    margin: 20px 0;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+button {
+    background: #172436;
+    color: #fff;
+    padding: 20px;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 40px;
+}
+
+button:hover {
+    color: #454f5e;
+    transition: 0.5s ease;
+}
+
+
+/* FOOTER */
+
+footer {
+    color: #fff;
+    text-align: center;
+    background: #172436;
+    padding: 10px;
+}
+
+
+/* MEDIA */
+
+@media screen and (max-width: 790px) {
+    .navi {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 790px) {
+    #menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    #menulist {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    #menulist a {
+        display: block;
+        color: #fff;
+        border-bottom: 1px solid #454f5e;
+        padding: 10px;
+        margin: 0;
+    }
+    #toggle:checked+#menulist {
+        display: block;
+    }
+    /* CONTENT SKILLS */
+    #container-one {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 40px 40px 0 40px;
+    }
+    .row1-box1>h3 {
+        margin-bottom: 10px;
+    }
+    .row1-box1 {
+        padding: 0 15px 20px 0;
+    }
+    .row1-box2>h3 {
+        margin-bottom: 10px;
+    }
+    .row1-box2 {
+        padding: 0 15px 20px 0;
+    }
+    .row1-box3>h3 {
+        margin-bottom: 10px;
+    }
+    .row1-box3 {
+        padding: 0 15px 20px 0;
+    }
+    .container-two {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 0 40px 40px 40px;
+    }
+    .row2-box1>h3 {
+        margin-bottom: 10px;
+    }
+    .row2-box1 {
+        padding: 0 15px 20px 0;
+    }
+    .row2-box2>h3 {
+        margin-bottom: 10px;
+    }
+    .row2-box2 {
+        padding: 0 15px 20px 0;
+    }
+    .row2-box3>h3 {
+        margin-bottom: 10px;
+    }
+    .row2-box3 {
+        padding: 0 15px 20px 0;
+    }
+    /* CONTACT FORM */
+    .adress h1 {
+        text-align: center;
+        text-decoration: underline;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+    .adress h2 {
+        text-align: center;
+        font-size: 2.3rem;
+        margin-bottom: 20px;
+    }
+    .adress p {
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 1.7rem;
+        padding: 0 20px
+    }
+    .adress p:last-child {
+        margin-bottom: 20px;
+    }
+    .adress p span {
+        font-size: 2.5rem;
+    }
+    .adress {
+        margin: 40px 0;
+    }
+    input {
+        font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        color: gray;
+        display: block;
+        border: lightgray solid 1px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+    textarea {
+        font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        color: gray;
+        border: lightgray solid 1px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+    #name,
+    #mail,
+    #phone,
+    #msg {
+        min-width: 300px;
+    }
+    #msg {
+        min-height: 100px;
+    }
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .button {
+        text-align: center;
+    }
+    button {
+        background: #172436;
+        color: #fff;
+        padding: 10px;
+        text-transform: uppercase;
+        border: none;
+    }
+    button:hover {
+        color: #454f5e;
+        transition: 0.5s ease;
+    }
+}
