@@ -8,7 +8,6 @@ body {
     font-size: 16px;
 }
 
-
 /* HEADER */
 
 header {
@@ -30,7 +29,6 @@ header {
     text-transform: uppercase;
     letter-spacing: 5px;
 }
-
 
 /* DROPDOWN MENU */
 
@@ -66,7 +64,6 @@ label {
     display: none;
 }
 
-
 /* MAIN MENU */
 
 .navi {
@@ -93,7 +90,6 @@ label {
     transition: 0.5s ease;
 }
 
-
 /* SHOWCASE */
 
 .showcase {
@@ -114,7 +110,6 @@ label {
     text-align: center;
     padding: 0 10%;
 }
-
 
 /* CONTENT SKILS  */
 
@@ -180,7 +175,6 @@ label {
     padding-left: 15px;
 }
 
-
 /* ABOUT */
 
 .logo-about {
@@ -223,7 +217,6 @@ article p {
 .parallax2 {
     background-image: url(img/photo22.jpeg);
 }
-
 
 /* CONTACT FORM */
 
@@ -322,7 +315,6 @@ button:hover {
     transition: 0.5s ease;
 }
 
-
 /* FOOTER */
 
 footer {
@@ -331,7 +323,6 @@ footer {
     background: #172436;
     padding: 10px;
 }
-
 
 /* MEDIA */
 
